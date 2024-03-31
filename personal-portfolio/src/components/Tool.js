@@ -4,7 +4,8 @@ import {
   SiWindows,
   SiApple,
   SiKalilinux,
-  SiUbuntu
+  SiUbuntu,
+  SiArchlinux
 } from "react-icons/si";
 
 export const Toolstack = () => {
@@ -22,6 +23,9 @@ export const Toolstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiUbuntu />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiArchlinux />
       </Col>
     </Row>
   );

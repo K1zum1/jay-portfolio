@@ -6,6 +6,7 @@ import DVC from '../assets/img/dvc.png';
 import UCB from '../assets/img/ucb.png';
 import cp from '../assets/img/cp.png';
 import seti from '../assets/img/seti.jpg';
+import nsf from '../assets/img/nsf.png';
 
 export const EduTimeline = () => {
   return (
@@ -15,11 +16,11 @@ export const EduTimeline = () => {
       <VerticalTimelineElement
         id="education"
         className="vertical-timeline-element--education"
-        contentStyle={{ background: '#3B5998', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid #3B5998' }}
-        date="2021 - 2022"
-        iconStyle={{ background: '#3B5998', color: '#fff' }}
-        icon={<img src={pan} alt="Yale Logo" />}
+        contentStyle={{ background: '#007BFF', color: '#fff' }} // Changed to Bootstrap blue
+        contentArrowStyle={{ borderRight: '7px solid #007BFF' }}
+        date="February 2022 - February 2024"
+        iconStyle={{ background: '#007BFF', color: '#fff' }}
+        icon={<img src={pan} alt="PANW Logo" />}
       >
         <h3 className="vertical-timeline-element-title">Cybersecurity Bootcamp</h3>
         <h5 className="vertical-timeline-element-subtitle">Palo Alto Networks - Remote </h5>
@@ -31,10 +32,10 @@ export const EduTimeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        contentStyle={{ background: '#9C27B0', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid #FF9A8B' }}
-        date="2022 - 2024"
-        iconStyle={{ background: '#FF9A8B', color: '#fff' }}
+        contentStyle={{ background: '#28A745', color: '#fff' }} // Changed to Bootstrap green
+        contentArrowStyle={{ borderRight: '7px solid #28A745' }}
+        date="September 2022 - May 2024"
+        iconStyle={{ background: '#FFC107', color: '#fff' }} // Changed to Bootstrap yellow for icon
         icon={<img src={DVC} alt="DVC Logo" />}
       >
         <h3 className="vertical-timeline-element-title">Community College Student</h3>
@@ -47,10 +48,10 @@ export const EduTimeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        contentStyle={{ background: '#2196F3', color: '#ffffff' }}
-        contentArrowStyle={{ borderRight: '7px solid #68C7D1' }}
-        date="2023"
-        iconStyle={{ background: '#68C7D1', color: '#fff' }}
+        contentStyle={{ background: '#17A2B8', color: '#ffffff' }} // Changed to Bootstrap info blue
+        contentArrowStyle={{ borderRight: '7px solid #17A2B8' }}
+        date="September 2023 - December 2023"
+        iconStyle={{ background: '#FFC107', color: '#fff' }} // Reused Bootstrap yellow for consistency
         icon={<img src={cp} alt="CodePath Logo" />}
       >
         <h3 className="vertical-timeline-element-title">Intermediate Cybersecurity Student</h3>
@@ -63,11 +64,11 @@ export const EduTimeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        contentStyle={{ background: '#4CAF50', color: '#ffffff' }}
-        contentArrowStyle={{ borderRight: '7px solid #68C7D1' }}
-        date="2024-2025"
-        iconStyle={{ background: '#68C7D1', color: '#fff' }}
-        icon={<img src={seti} alt="CodePath Logo" />}
+        contentStyle={{ background: '#FFC107', color: '#ffffff' }} // Bootstrap yellow for a bright look
+        contentArrowStyle={{ borderRight: '7px solid #FFC107' }}
+        date="January 2024 - May 2024"
+        iconStyle={{ background: '#28A745', color: '#fff' }} // Bootstrap green for the icon
+        icon={<img src={seti} alt="SETI Logo" />}
       >
         <h3 className="vertical-timeline-element-title">Computing Intern</h3>
         <h5 className="vertical-timeline-element-subtitle">SETI Institute - Mountain View, CA</h5>
@@ -81,17 +82,30 @@ export const EduTimeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        contentStyle={{ background: '#E91E63', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid #68C7D1' }}
-        date="2024 - 2026"
-        iconStyle={{ background: '#68C7D1', color: '#fff' }}
+        contentStyle={{ background: '#DC3545', color: '#ffffff' }} // Changed to Bootstrap red for contrast
+        contentArrowStyle={{ borderRight: '7px solid #DC3545' }}
+        date="May 2024 - August 2024"
+        iconStyle={{ background: '#17A2B8', color: '#fff' }} // Bootstrap info blue for the icon
+        icon={<img src={nsf} alt="NSF Logo" />}
+      >
+        <h3 className="vertical-timeline-element-title">Cybersecurity Intern</h3>
+        <h5 className="vertical-timeline-element-subtitle">National Science Foundation - Reston, VA</h5>
+        <p>
+          Incoming Step 1/2 Cybersecurity Intern for NSF at Florida International University & University of Illinois Urbana-Champaign <br />
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        contentStyle={{ background: '#6C757D', color: '#fff' }} // Bootstrap secondary grey for a muted finish
+        contentArrowStyle={{ borderRight: '7px solid #6C757D' }}
+        date="August 2024 - May 2026"
+        iconStyle={{ background: '#FFC107', color: '#fff' }} // Bootstrap yellow for the icon, for a pop of color
         icon={<img src={UCB} alt="UCB Logo" />}
       >
-        <h3 className="vertical-timeline-element-title">Undergraduate/Graduate Student</h3>
-        <h5 className="vertical-timeline-element-subtitle">UC Institute - X, CA</h5>
+        <h3 className="vertical-timeline-element-title">Undergraduate</h3>
+        <h5 className="vertical-timeline-element-subtitle">UC Institute - XXX, CA</h5>
         <p>
           On track to transfer to a 4 year institute <br />
-          
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline></div>
