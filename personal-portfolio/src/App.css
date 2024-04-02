@@ -251,11 +251,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #ffffff;
   letter-spacing: 0.8px;
 }
-.banner {
-  position: relative;
-  padding: 20% 5% 25% 5%;
+.banner .wrap {
+  display: inline-block;
+  white-space: nowrap;
+  max-height: 150px;
   overflow: hidden;
-  height: auto;
+  height: 100px; 
 }
 
 section:not(.banner) {
