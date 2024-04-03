@@ -1,36 +1,35 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon2 from "../assets/img/nav-icon2.svg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(100);
-  const toRotate = ["Computer Engineering Sophmore", "Front-end Enthusiast", "Cybersecurity Aspirant", "SETI Intern", "Master's Rank in League", "Former Top 100 Splatoon 2 player",
-"Future Berkeley Student", "IU Lover", "SSBU Enjoyer", "Ichiko Aoba is based"];
+  const toRotate = ["Computer Engineering Sophomore", "Front-end Enthusiast", "Cybersecurity Aspirant", "Doing astrophysics research but hate physics", "Master's Rank in League", "Former Top 100 Splatoon 2 player", "Future Berkeley Student", "IU Lover", "SSBU Enjoyer (Rob Player)", "Ichiko Aoba is based"];
   const period = 1000;
 
   useEffect(() => {
     const tick = () => {
       let i = loopNum % toRotate.length;
       let fullText = toRotate[i];
-      let updatedText = isDeleting
-        ? fullText.substring(0, text.length - 1)
-        : fullText.substring(0, text.length + 1);
+      let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
 
       setText(updatedText);
 
       if (isDeleting) {
-        setDelta((prevDelta) => prevDelta / 2);
+        setDelta(prevDelta => prevDelta / 2);
       }
 
       if (!isDeleting && updatedText === fullText) {
         setIsDeleting(true);
-        setDelta((prevDelta) => period);
+        setDelta(prevDelta => period);
       } else if (isDeleting && updatedText === "") {
         setIsDeleting(false);
-        setLoopNum((prevLoopNum) => prevLoopNum + 1);
-        setDelta((prevDelta) => 100);
+        setLoopNum(prevLoopNum => prevLoopNum + 1);
+        setDelta(prevDelta => 100);
       }
     };
 
@@ -41,7 +40,7 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
-  }, [text, delta, isDeleting, loopNum, setIsDeleting, setDelta, setText, setLoopNum]);
+  }, [text, delta, isDeleting, loopNum]);
 
   return (
     <section className="banner" id="home">
@@ -52,20 +51,22 @@ export const Banner = () => {
               <h1>
                 {`Hi! I'm Jay`}
                 <br />
-                <span
-                  className="txt-rotate"
-                  dataPeriod="1000"
-                  data-rotate='["Computer Engineer", "Frontend Enthusiast", "Cybersecurity Aspirant"]'
-                >
+                <span className="txt-rotate" dataPeriod="1000" data-rotate='["Computer Engineer", "Frontend Enthusiast", "Cybersecurity Aspirant"]'>
                   <span className="wrap">{text}</span>
                 </span>
               </h1>
+              <div className="social-icon mt-4">
+                <a href="https://github.com/K1zum1" target="_blank" rel="noopener noreferrer">
+                  <img src={navIcon1} alt="Github Icon" />
+                </a>
+                <a href="https://www.linkedin.com/in/jaeyoon-chong/" target="_blank" rel="noopener noreferrer">
+                  <img src={navIcon2} alt="LinkedIn Icon" />
+                </a>
+              </div>
             </div>
-
           </Col>
         </Row>
       </Container>
-      
     </section>
   );
 };

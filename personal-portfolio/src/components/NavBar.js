@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-// Removed Router and Link imports since they're not used for in-page scrolling
+
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
