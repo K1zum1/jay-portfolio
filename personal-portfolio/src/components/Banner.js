@@ -8,7 +8,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(100);
-  const toRotate = ["Computer Engineering Sophomore", "Front-end Enthusiast", "Cybersecurity Aspirant", "Doing astrophysics research but hate physics", "Master's Rank in League", "Former Top 100 Splatoon 2 player", "Future Berkeley Student", "IU Lover", "SSBU Enjoyer (Rob Player)", "Ichiko Aoba is based"];
+  const toRotate = ["Computer Engineering Sophomore", "Front-end Enthusiast", "Cybersecurity Aspirant", "Doing astrophysics research, sort of", "Master's Rank in League", "Former Top 100 Splatoon 2 player", "Future Berkeley Student", "IU Lover", "SSBU Enjoyer (Rob Player)", "Ichiko Aoba is based"];
   const period = 1000;
 
   useEffect(() => {
