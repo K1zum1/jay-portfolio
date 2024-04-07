@@ -17,7 +17,7 @@ export const EduTimeline = () => {
         id="education"
         className="vertical-timeline-element--education"
         contentStyle={{ background: '#007BFF', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid #007BFF' }}
+        contentArrowStyle={{ borderRight: '20px solid #007BFF' }}
         date="February 2022 - February 2024"
         iconStyle={{ background: '#007BFF', color: '#fff' }}
         icon={<img src={pan} alt="PANW Logo" />}
@@ -33,7 +33,7 @@ export const EduTimeline = () => {
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{ background: '#28A745', color: '#fff' }} 
-        contentArrowStyle={{ borderRight: '7px solid #28A745' }}
+        contentArrowStyle={{ borderRight: '20px solid #28A745' }}
         date="September 2022 - May 2024"
         iconStyle={{ background: '#FFC107', color: '#fff' }} 
         icon={<img src={DVC} alt="DVC Logo" />}
@@ -49,7 +49,7 @@ export const EduTimeline = () => {
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{ background: '#17A2B8', color: '#ffffff' }}
-        contentArrowStyle={{ borderRight: '7px solid #17A2B8' }}
+        contentArrowStyle={{ borderRight: '20px solid #17A2B8' }}
         date="September 2023 - December 2023"
         iconStyle={{ background: '#FFC107', color: '#fff' }} 
         icon={<img src={cp} alt="CodePath Logo" />}
@@ -65,7 +65,7 @@ export const EduTimeline = () => {
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{ background: '#FFC107', color: '#ffffff' }} 
-        contentArrowStyle={{ borderRight: '7px solid #FFC107' }}
+        contentArrowStyle={{ borderRight: '20px solid #FFC107' }}
         date="January 2024 - May 2024"
         iconStyle={{ background: '#28A745', color: '#fff' }} 
         icon={<img src={seti} alt="SETI Logo" />}
@@ -83,22 +83,21 @@ export const EduTimeline = () => {
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{ background: '#DC3545', color: '#ffffff' }} 
-        contentArrowStyle={{ borderRight: '7px solid #DC3545' }}
+        contentArrowStyle={{ borderRight: '20px solid #DC3545' }}
         date="May 2024 - August 2024"
         iconStyle={{ background: '#17A2B8', color: '#fff' }}
         icon={<img src={nsf} alt="NSF Logo" />}
       >
         <h3 className="vertical-timeline-element-title">Incoming Cybersecurity Intern</h3>
-        <h5 className="vertical-timeline-element-subtitle">National Science Foundation - Reston, VA</h5>
+        <h5 className="vertical-timeline-element-subtitle">National Center for Supercomputing Applications - Urbana, Il</h5>
         <p>
-          Incoming STEP-1 Cybersecurity Student for NSF at Florida International University <br /><br />
           Incoming STEP-2 Cybersecurity Intern at University of Illinois Urbana-Champaign <br />
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{ background: '#6C757D', color: '#fff' }} 
-        contentArrowStyle={{ borderRight: '7px solid #6C757D' }}
+        contentArrowStyle={{ borderRight: '20px solid #6C757D' }}
         date="August 2024 - May 2026"
         iconStyle={{ background: '#FFC107', color: '#fff' }} 
         icon={<img src={UCB} alt="UCB Logo" />}

@@ -605,7 +605,7 @@ img {
 
 .vertical-timeline {
 	width: 95%;
-	max-width: 1170px;
+	max-width: None;
 	margin: 0 auto;
 	padding: 2em 0;
 }
@@ -645,7 +645,6 @@ img {
 
 .timeline-container {
 	width: 100%;
-
 	background-size: cover;
 	background-position: center;
 	font-family: Arial, sans-serif;
