@@ -46,7 +46,13 @@ export const NavBar = () => {
             <Nav.Link onClick={() => scrollToSection('home')} className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>Home</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('education')} className={activeLink === 'education' ? 'active navbar-link' : 'navbar-link'}>Education/Experience</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('projects')} className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}>Projects</Nav.Link>
-            <Nav.Link href={`${process.env.PUBLIC_URL}/assets/Jae_Yoon_Chong_Resume.pdf`} target="_blank" rel="noopener noreferrer" download className='navbar-link'>Resume 🔗</Nav.Link>
+            <Nav.Link href={`${process.env.PUBLIC_URL}/assets/Jae_Yoon_Chong_Resume.pdf`} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className='navbar-link'>
+    Resume 🔗
+</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
