@@ -48,14 +48,20 @@ html {
 }
 
 body {
-	font-weight: 400;
-	overflow-x: hidden;
-	position: relative;
-	background-color: #121212 !important;
-	color: #fff !important;
-	font-family: 'Centra', sans-serif !important;
-	font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #121212 !important;
+    color: #fff !important;
+    font-family: 'Centra', sans-serif !important;
+    font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+    background-image: url('./assets/img/endless-constellation.svg');
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-size: auto 100%; 
 }
+
 
 h1 {
 	font-size: clamp(2rem, 5vw, 2.5rem);
@@ -330,31 +336,26 @@ img {
 	padding-top: 80px;
 }
 
-.banner .tagline {
-	font-weight: 700;
-	letter-spacing: 0.8px;
-	padding: 8px 10px;
-	background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	font-size: 20px;
-	margin-bottom: 16px;
-	display: inline-block;
+.banner {
+    padding: 20% 0% 20% 0%;
+    margin-top: 5vh;
+    background-image: url('./assets/img/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.banner {
-	padding: 20% 0% 20% 0%;
-	margin-top: 50px;
-}
 
 .banner h1 {
-	font-size: clamp(3rem, 8vw, 4rem);
+    font-size: clamp(3rem, 8vw, 4rem);
 }
 
 @media (max-width: 768px) {
-	.banner h1 {
-		font-size: clamp(2.5rem, 10vw, 3rem);
-	}
+    .banner h1 {
+        font-size: clamp(2.5rem, 10vw, 3rem);
+    }
 }
+
 
 .banner .wrap {
 	display: inline-block;
