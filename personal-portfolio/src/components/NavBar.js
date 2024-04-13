@@ -17,14 +17,14 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "navbar-scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <span className="logo-text">Jae Yoon Chong | CSE @ DVC</span>
+          <span className="logo-text">Jay Chong | CSE @ DVC</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#education">Education/Experience</Nav.Link>
+            <Nav.Link href="#education">Experience</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#techstack">Tech Stack</Nav.Link>
+            <Nav.Link href="#techstack">Techstack </Nav.Link>
             <Nav.Link href={`${process.env.PUBLIC_URL}/assets/Jae_Yoon_Chong_Resume.pdf`} target="_blank" rel="noopener noreferrer">
               Resume 🔗
             </Nav.Link>

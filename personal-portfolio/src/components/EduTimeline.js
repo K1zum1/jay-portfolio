@@ -11,7 +11,7 @@ import nsf from '../assets/img/nsf.png';
 export const EduTimeline = () => {
   return (
     <div className="timeline-container">
-      <section className='project'><h2>Education & Experiences</h2></section>
+      <section className='project'><h2>Relevant Experiences</h2></section>
     <VerticalTimeline>
       <VerticalTimelineElement
         id="education"

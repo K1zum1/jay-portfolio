@@ -73,8 +73,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp1} alt="" />
-      <img className="background-image-right" src={colorSharp2} alt="" />
+      
     </section>
   );
 };
