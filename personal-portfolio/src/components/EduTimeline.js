@@ -71,7 +71,7 @@ export const EduTimeline = () => {
         icon={<img src={seti} alt="SETI Logo" />}
       >
         <h3 className="vertical-timeline-element-title">Computing Intern</h3>
-        <h5 className="vertical-timeline-element-subtitle">SETI Institute - Mountain View, CA</h5>
+        <h5 className="vertical-timeline-element-subtitle">Carl Sagan Center SETI Institute - Mountain View, CA</h5>
         <p>
         Contributed to the modification of RADMC3D, an astrophysical tool to compute particle wind models of
         protoplanetary disk formation in new stars. <br /><br />
