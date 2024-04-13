@@ -107,13 +107,13 @@ select:focus {
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
 	font-weight: 400;
-	color: #fff !important;
-	letter-spacing: 0.8px;
-	padding: 0 25px;
-	font-size: 18px;
-	opacity: 0.75;
-	transition: 0.3s ease-in-out;
-	min-width: 100px;
+    color: #fff; 
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    font-size: 18px;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    min-width: 100px;
 }
 
 @media (max-width: 1200px) {
@@ -125,44 +125,60 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 
 @media (max-width: 992px) {
 	nav.navbar .navbar-nav .nav-link.navbar-link {
-		font-size: 14px;
-		min-width: 60px;
+	  padding: 0 10px;
+	  font-size: 12px;
 	}
-}
-
-@media (max-width: 576px) {
+  }
+  
+  @media (max-width: 576px) {
 	nav.navbar .navbar-nav .nav-link.navbar-link {
-		font-size: 12px;
-		min-width: 40px;
+	  font-size: 10px;
+	  padding: 0 5px;
 	}
-}
+	nav.navbar {
+	  padding: 10px 0;
+	}
+  }
 
-nav.navbar {
+  nav.navbar {
 	padding: 18px 0;
 	position: fixed;
 	width: 100%;
 	top: 0;
-	z-index: 1030;
+	z-index: 3;
 	transition: 0.32s ease-in-out;
-	background-color: #0a0a0c;
-}
+	background-color: #3074b8;
+	align-items: center;
+  }
+  
+  nav.navbar.navbar-scrolled {
+	padding: 15px 0;
+	background-color: #5577AA; 
+  }
+  
 
-nav.navbar.scrolled {
-	padding: 15px;
-	background-color: #0a0a0c;
-}
+@media (max-width: 992px) {
+	.navbar-expand-md {
+	  flex-direction: column;
+	}
+	.navbar-toggler {
+	  display: block;
+	}
+	.navbar-collapse {
+	  width: 100%;
+	}
+  }
 
 nav.navbar a.navbar-brand {
-	width: 10%;
-}
+	width: auto;
+	font-size: clamp(12px, 2.5vw, 18px);
+  }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
-	transition: 0.3s ease-in-out;
-}
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 	opacity: 1;
+	
 }
 
 span.navbar-text {
@@ -305,6 +321,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+
 .logo-text {
 	font-size: 18px;
 	font-weight: 400;
@@ -338,11 +355,7 @@ img {
 
 .banner {
     padding: 20% 0% 20% 0%;
-    margin-top: 5vh;
-    background-image: url('./assets/img/banner-bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    margin-top: 4vh;
 }
 
 
