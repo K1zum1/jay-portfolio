@@ -91,7 +91,7 @@ export const EduTimeline = () => {
         <h3 className="vertical-timeline-element-title">Incoming Cybersecurity Intern</h3>
         <h5 className="vertical-timeline-element-subtitle">National Center for Supercomputing Applications - Urbana, Il</h5>
         <p>
-          Incoming STEP-2 Cybersecurity Intern at University of Illinois Urbana-Champaign <br />
+          Incoming Cybersecurity Engineering Intern at University of Illinois Urbana-Champaign <br />
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -102,10 +102,10 @@ export const EduTimeline = () => {
         iconStyle={{ background: '#FFC107', color: '#fff' }} 
         icon={<img src={UCB} alt="UCB Logo" />}
       >
-        <h3 className="vertical-timeline-element-title">Undergraduate</h3>
-        <h5 className="vertical-timeline-element-subtitle">UC Institute - XXX, CA</h5>
+        <h3 className="vertical-timeline-element-title">Undergraduate Student</h3>
+        <h5 className="vertical-timeline-element-subtitle">University of California, Berkeley - Berkeley, California</h5>
         <p>
-          On track to transfer to a 4 year institute <br />
+          Continuing my undergraduate studies in Electrical Engineering & Computer Sciences 
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline></div>
