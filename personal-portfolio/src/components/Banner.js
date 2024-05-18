@@ -2,13 +2,24 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
+import emailIcon from "../assets/img/nav-icon3.svg"; 
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(100);
-  const toRotate = ["Computer Engineering Sophomore", "Front-end Enthusiast", "Cybersecurity Aspirant", "Doing astrophysics research, sort of", "Master's Rank in League", "Former Top 100 Splatoon 2 player", "Future Berkeley Student", "IU Lover", "SSBU Enjoyer (Rob Player)", "Ichiko Aoba is based"];
+  const toRotate = [
+    "EECS Junior at UC Berkeley",
+    "Front-end Enthusiast",
+    "Cybersecurity Aspirant",
+    "Doing astrophysics research, sort of",
+    "Master's Rank in League - Kizumi #LOOΠΔ",
+    "Former Top 100 Splatoon 2 player",
+    "Lee Ji-Eun Lover",
+    "SSBU Enjoyer (Rob Player)",
+    "Ichiko Aoba is based"
+  ];
   const period = 1000;
 
   useEffect(() => {
@@ -61,6 +72,9 @@ export const Banner = () => {
                 </a>
                 <a href="https://www.linkedin.com/in/jaeyoon-chong/" target="_blank" rel="noopener noreferrer">
                   <img src={navIcon2} alt="LinkedIn Icon" />
+                </a>
+                <a href="mailto:jaychong@berkeley.edu">
+                  <img src={emailIcon} alt="Email Icon" />
                 </a>
               </div>
             </div>
