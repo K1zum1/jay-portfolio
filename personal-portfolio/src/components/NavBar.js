@@ -17,7 +17,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "navbar-scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <span className="logo-text">Jay Chong | EECS @ UCB</span>
+          <span className="logo-text">Jay Chong | EECS @ UC Berkeley</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
