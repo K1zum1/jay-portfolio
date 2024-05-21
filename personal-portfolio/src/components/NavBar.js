@@ -25,8 +25,8 @@ export const NavBar = () => {
             <Nav.Link href="#Experiences">Experience</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#techstack">Techstack </Nav.Link>
-            <Nav.Link href={`${process.env.PUBLIC_URL}/assets/Jae_Yoon_Chong_Resume.pdf`} target="_blank" rel="noopener noreferrer">
-              Resume 🔗
+            <Nav.Link href={`${process.env.PUBLIC_URL}/assets/Jae_Yoon_Chong_Resume.pdf`}>
+              Resume 
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

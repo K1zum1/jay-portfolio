@@ -40,6 +40,9 @@
 	--blue-rgb: 92 192 249;
 	--green-rgb: 125 161 35;
 	--brown-rgb: 127 46 23;
+	--banner-padding: 20%;
+    --banner-margin-top: 0.5vh;
+    --banner-h1-font-size: clamp(3rem, 8vw, 4rem);
 }
 
 html {
@@ -104,15 +107,15 @@ select:focus {
 	padding: 18px 0;
 	position: fixed;
 	width: 100%;
-	top: 0;
-	z-index: 3;
-	transition: 0.32s ease-in-out;
+	top: 0%;
+	z-index: 1;
+	transition: 0.5s ease-in-out;
 	background-color: #3074b8;
-	align-items: center;
+	
   }
   
   nav.navbar.navbar-scrolled {
-	padding: 15px 0;
+	padding: 10px 0;
 	background-color: #5577AA; 
   }
   
@@ -219,19 +222,21 @@ img {
 }
 
 
+
 .banner {
-    padding: 20% 0% 20% 0%;
-    margin-top: 4vh;
+    padding: var(--banner-padding) 0;
+    margin-top: var(--banner-margin-top);
 }
 
-
 .banner h1 {
-    font-size: clamp(3rem, 8vw, 4rem);
+    font-size: var(--banner-h1-font-size);
 }
 
 @media (max-width: 768px) {
-    .banner h1 {
-        font-size: clamp(2.5rem, 10vw, 3rem);
+    :root {
+        --banner-padding: 10%;
+        --banner-margin-top: 1vh;
+        --banner-h1-font-size: clamp(2.5rem, 10vw, 3rem);
     }
 }
 
@@ -249,6 +254,18 @@ img {
 	overflow: hidden;
 	min-height: 2em;
 	vertical-align: top;
+}
+
+
+.banner .wrap, .wrap {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    height: auto;
+}
+
+section:not(.banner) {
+    padding-top: 5%;
 }
 
 .txt-rotate>.wrap {
