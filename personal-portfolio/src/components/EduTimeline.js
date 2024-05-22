@@ -20,12 +20,12 @@ export const EduTimeline = () => {
           iconStyle={{ background: '#FFFFFF', color: '#fff' }}
           icon={<img src={DVC} alt="DVC Logo" />}
         >
-          <h3 className="vertical-timeline-element-title">Community College Student</h3>
-          <h5 className="vertical-timeline-element-subtitle">Diablo Valley College</h5>
+          <h3 className="vertical-timeline-element-title">Diablo Valley College</h3>
+          <h5 className="vertical-timeline-element-subtitle">Community College Student</h5>
           <p>
-            Started my Associate of Science in Computer Engineering <br /><br />
-            Became the Google Developers Student Lead after a year <br /><br />
-            Completed all required classes with a 4.0 GPA <br />
+            Completed an associate of science in Computer Engineering <br /><br />
+            Lead the Google Developer Student club as their GDSC Lead <br /><br />
+            Completed all major-prerequisite classes, while maintaining a 4.0 GPA <br />
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -36,11 +36,12 @@ export const EduTimeline = () => {
           iconStyle={{ background: '#FFFFFF', color: '#fff' }}
           icon={<img src={UCB} alt="UCB Logo" />}
         >
-          <h3 className="vertical-timeline-element-title">Undergraduate Student</h3>
-          <h5 className="vertical-timeline-element-subtitle">University of California, Berkeley</h5>
+          <h3 className="vertical-timeline-element-title">University of California, Berkeley</h3>
+          <h5 className="vertical-timeline-element-subtitle">Undergraduate Student</h5>
           <p>
-            Continuing my undergraduate studies in Electrical Engineering & Computer Sciences <br /><br />
-            Pursuing a minor in Business Administration <br /><br />
+          Continuing undergraduate studies in Electrical Engineering & Computer Sciences<br /><br />
+          Hoping to work with PhD and Professors on cybersecurity research <br /><br />
+          Looking for work-study jobs related to information security analysis <br />
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
