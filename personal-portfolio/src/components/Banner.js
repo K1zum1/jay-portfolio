@@ -13,10 +13,11 @@ export const Banner = () => {
     "EECS Junior at UC Berkeley",
     "Front-end Enthusiast",
     "Cybersecurity Aspirant",
-    "Doing astrophysics research, sort of",
+    "Did astronomy research, insane sidequest",
     "Master's Rank in League - Kizumi #LOOΠΔ",
     "Former Top 100 Splatoon 2 player",
     "Lee Ji-Eun Lover",
+    "Working at NCSA right now",
     "SSBU Enjoyer (Rob Player)",
     "Ichiko Aoba is based"
   ];

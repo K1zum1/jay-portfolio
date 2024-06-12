@@ -20,11 +20,11 @@ export const ExperienceTimeline = () => {
           iconStyle={{ background: '#FFFFFF', color: '#fff' }}
           icon={<img src={seti} alt="SETI Logo" />}
         >
-          <h3 className="vertical-timeline-element-title" style={{ fontSize: '1.5rem' }}>Computing Intern</h3>
-          <h5 className="vertical-timeline-element-subtitle">Carl Sagan Center SETI Institute</h5>
+          <h3 className="vertical-timeline-element-title" style={{ fontSize: '1.5rem' }}>Computation Intern</h3>
+          <h5 className="vertical-timeline-element-subtitle">SETI Institute</h5>
           <p>
-            Contributed to the modification of RADMC-3D, an astrophysical tool to compute particle wind models of protoplanetary disk formation in new stars. <br /><br />
-            Assisted Dr. Gorti in researching and designing an astrophysical math model to compute density data that can be visualized in 2D slices and 3D. <br /><br />
+            Contributed to the modification of RADMC-3D, by creating high-fidelity models to simulate wind structures in protoplanetary disk. <br /><br />
+            Developed a robust and efficient framework for a model that can be used by the scientific community to analyze JWST data and study protoplanetary disk winds <br /><br />
             Utilized NumPy, Matplotlib, and Python to process and aggregate data, feeding it into the RADMC-3D computation model to produce detailed images of protoplanetary disks.
           </p>
         </VerticalTimelineElement>
@@ -55,11 +55,7 @@ export const ExperienceTimeline = () => {
         >
           <h3 className="vertical-timeline-element-title" style={{ fontSize: '1.5rem' }}>Incoming Cybersecurity Research Intern</h3>
           <h5 className="vertical-timeline-element-subtitle">National Science Foundation</h5>
-          <p>
-            Developing and refining machine learning models to predict and identify phishing attempts in real-time, significantly reducing the incidence of successful phishing attacks within the organization.<br /><br />
-            Leading the initiative to enhance endpoint security by deploying and configuring advanced Endpoint Detection and Response (EDR) tools across critical network segments.<br /><br />
-            Conducting comprehensive security audits and penetration testing to identify vulnerabilities in web applications, resulting in a 30% improvement in web application security posture.
-          </p>
+          <p> To be updated... </p>
         </VerticalTimelineElement>
         </VerticalTimeline>
     </div>

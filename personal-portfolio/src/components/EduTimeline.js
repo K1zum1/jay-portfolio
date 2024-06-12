@@ -40,7 +40,7 @@ export const EduTimeline = () => {
           <h5 className="vertical-timeline-element-subtitle">Undergraduate Student</h5>
           <p>
           Continuing undergraduate studies in Electrical Engineering & Computer Sciences<br /><br />
-          Hoping to work with PhD and Professors on cybersecurity research <br /><br />
+          Hoping to work with PhD students & professors on cybersecurity research <br /><br />
           Looking for work-study jobs related to information security analysis <br />
           </p>
         </VerticalTimelineElement>
