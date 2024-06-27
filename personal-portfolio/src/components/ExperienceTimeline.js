@@ -21,7 +21,12 @@ export const ExperienceTimeline = () => (
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '1.5rem' }}>Computation Intern</h3>
         <h5 className="vertical-timeline-element-subtitle">SETI Institute</h5>
         <p>
-          Contributed to the modification of RADMC-3D, creating high-fidelity models to simulate wind structures in protoplanetary disks. Developed a robust framework for analyzing JWST data on protoplanetary disk winds. Utilized NumPy, Matplotlib, and Python for data processing and visualization.
+          Contributed to the modification of RADMC-3D, creating high-fidelity models to simulate wind structures in protoplanetary disks.<br /><br />  
+          Developed a robust and efficient modeling framework that can be used by the scientific community to analyze
+JWST data and study protoplanetary disk winds
+<br /><br /> 
+          Utilized Numpy, Matplotlib, and Python3, to process and aggregate data to feed into RADMC3D computation
+model to produce images
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -35,7 +40,8 @@ export const ExperienceTimeline = () => (
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '1.5rem' }}>Cybersecurity Engineering Intern</h3>
         <h5 className="vertical-timeline-element-subtitle">National Center for Supercomputing Applications</h5>
         <p>
-          Checked for Service Principals in DNS and service indexes, aggregating data for security purposes. Developed a web platform using React and Python for submitting and aggregating compromised SSH keys for blacklisting.
+          Checked for Service Principals in DNS and service indexes, aggregating data for security purposes. <br /><br /> 
+          Developed a web platform using React and Python for submitting and aggregating compromised SSH keys for blacklisting.
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>
