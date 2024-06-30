@@ -41,7 +41,7 @@ model to produce images
         <h5 className="vertical-timeline-element-subtitle">National Center for Supercomputing Applications</h5>
         <p>
           Checked for Service Principals in DNS and service indexes, aggregating data for security purposes. <br /><br /> 
-          Developed a web platform using React and Python for submitting and aggregating compromised SSH keys for blacklisting.
+          Developing a web platform using React and Python for submitting and aggregating compromised SSH keys for blacklisting.
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>

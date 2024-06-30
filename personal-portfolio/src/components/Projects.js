@@ -18,6 +18,13 @@ export const Projects = () => {
       githubUrl: "https://github.com/K1zum1/Disc-Wind-Density-Program"
     },
     {
+      title: "SSH Aggregator",
+      description: "Aggregates SSH keys from compromised servers and generates a revocation list for security purposes. ",
+      Tags: "React, Javascript, Python, PostgreSQL",
+      imgUrl: projImg1,
+      githubUrl: "https://github.com/K1zum1/ssh-blacklist"
+    },
+    {
       title: "Notion Reminder Bot",
       description: "Discord bot that sends reminders from Notion to Discord. Uses Notion API to fetch data. ",
       Tags: "Discord JS, Javascript, Notion API",
@@ -30,13 +37,6 @@ export const Projects = () => {
       Tags: "Lua, Roblox Studios",
       imgUrl: projImg2,
       githubUrl: "https://github.com/Kizum1/VReader"
-    },
-    {
-      title: "Viking Hacks Website",
-      description: "Website for Viking Hacks 2023. ",
-      Tags: "HTML, CSS, Javascript",
-      imgUrl: projImg1,
-      githubUrl: "https://github.com/Kizum1/vikinghacks"
     },
     {
       title: "Worldview Wanderer",
