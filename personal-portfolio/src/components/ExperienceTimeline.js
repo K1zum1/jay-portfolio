@@ -40,9 +40,12 @@ model to produce images
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '1.5rem' }}>Cybersecurity Engineering Intern</h3>
         <h5 className="vertical-timeline-element-subtitle">National Center for Supercomputing Applications</h5>
         <p>
-          Checked for Service Principals in DNS and service indexes, aggregating data for security purposes. <br /><br /> 
-          Developing a web platform using React and Python for submitting and aggregating compromised SSH keys for blacklisting. <br /><br /> 
-          Creating security blog posts and documentation for the NCSA staff and administrators.
+        Checked the existence of Service Principals in DNS, service indexes, and Qualys report. Scanned and agregated this
+        data to be purged by system admins <br /><br /> 
+        Developed a web application using React for the frontend and Node.js with Vercel serverless functions for the
+        backend, enabling secure submission and aggregation of SSH keys. <br /><br /> 
+        Implemented robust client-side validation for SSH key formats and fingerprint extraction using regular expressions
+        and the node-forge library, ensuring the integrity and authenticity of submitted keys
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>

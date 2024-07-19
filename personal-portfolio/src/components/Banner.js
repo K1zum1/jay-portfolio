@@ -14,11 +14,11 @@ export const Banner = () => {
     "Front-end Enthusiast",
     "Cybersecurity Aspirant",
     "Did astronomy research, insane sidequest",
-    "Master's Rank in League - Kizumi #LOOΠΔ",
+    "Master's Rank in League - Kizumi#LOOΠΔ",
     "Former Top 100 Splatoon 2 player",
     "Lee Ji-Eun Lover",
     "Working at NCSA right now",
-    "SSBU Enjoyer (Rob Player)",
+    "Sugarcoat - NATTY",
     "Ichiko Aoba is based"
   ];
   const period = 1000;
