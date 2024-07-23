@@ -25,8 +25,9 @@ export const ExperienceTimeline = () => (
           Developed a robust and efficient modeling framework that can be used by the scientific community to analyze
 JWST data and study protoplanetary disk winds
 <br /><br /> 
-          Utilized Numpy, Matplotlib, and Python3, to process and aggregate data to feed into RADMC3D computation
-model to produce images
+Utilized Numpy, Matplotlib, and Python3, to process and aggregate up to 1,000,000 data points to feed into
+RADMC3D computation model to produce 50+ images.
+
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -40,12 +41,12 @@ model to produce images
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '1.5rem' }}>Cybersecurity Engineering Intern</h3>
         <h5 className="vertical-timeline-element-subtitle">National Center for Supercomputing Applications</h5>
         <p>
-        Checked the existence of Service Principals in DNS, service indexes, and Qualys report. Scanned and agregated this
-        data to be purged by system admins <br /><br /> 
-        Developed a web application using React for the frontend and Node.js with Vercel serverless functions for the
-        backend, enabling secure submission and aggregation of SSH keys. <br /><br /> 
-        Implemented robust client-side validation for SSH key formats and fingerprint extraction using regular expressions
-        and the node-forge library, ensuring the integrity and authenticity of submitted keys
+        Checked the existence of 100+ Service Principals in DNS, service indexes, and Qualys report. Compiled a
+spreadsheet containing 300+ data points. <br /><br /> 
+Developed a web application using React for the frontend and Node.js with Vercel serverless functions for the
+backend, enabling secure submission and aggregation of 500+ SSH keys. <br /><br /> 
+Implemented robust client-side validation for SSH key formats and fingerprint extraction using regular expressions
+and the node-forge library, allowing for 30% faster processing.
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>

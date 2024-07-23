@@ -22,7 +22,7 @@ export const Projects = () => {
       description: "Aggregates SSH keys from compromised servers and generates a revocation list for security purposes. ",
       Tags: "React, Javascript, Python, PostgreSQL",
       imgUrl: projImg1,
-      githubUrl: "https://github.com/K1zum1/ssh-blacklist"
+      githubUrl: "https://github.com/K1zum1/SSH-Key-Aggregator"
     },
     {
       title: "Notion Reminder Bot",
