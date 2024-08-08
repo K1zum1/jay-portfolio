@@ -14,7 +14,7 @@ export const ExperienceTimeline = () => (
         className="vertical-timeline-element--education"
         contentStyle={{ background: '#6495ED', color: '#ffffff' }}
         contentArrowStyle={{ borderRight: '20px solid #6495ED' }}
-        date="May 2024 - August 2024"
+        date="January 2024 - June 2024"
         iconStyle={{ background: '#FFFFFF', color: '#fff' }}
         icon={<img src={seti} alt="SETI Logo" />}
       >
@@ -34,7 +34,7 @@ RADMC3D computation model to produce 50+ images.
         className="vertical-timeline-element--education"
         contentStyle={{ background: '#6495ED', color: '#ffffff' }}
         contentArrowStyle={{ borderRight: '20px solid #6495ED' }}
-        date="May 2024 - August 2024"
+        date="June 2024 - August 2024"
         iconStyle={{ background: '#FFFFFF', color: '#fff' }}
         icon={<img src={ncsa} alt="NCSA Logo" />}
       >
@@ -49,6 +49,21 @@ Implemented robust client-side validation for SSH key formats and fingerprint ex
 and the node-forge library, allowing for 30% faster processing.
         </p>
       </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        contentStyle={{ background: '#6495ED', color: '#ffffff' }}
+        contentArrowStyle={{ borderRight: '20px solid #6495ED' }}
+        date="August 2024 - May 2025"
+        iconStyle={{ background: '#FFFFFF', color: '#fff' }}
+        icon={<img src={ncsa} alt="NCSA Logo" />}
+      >
+        <h3 className="vertical-timeline-element-title" style={{ fontSize: '1.5rem' }}>Incoming Cybersecurity Engineering II Intern</h3>
+        <h5 className="vertical-timeline-element-subtitle">National Center for Supercomputing Applications</h5>
+        <p>
+        
+        </p>
+      </VerticalTimelineElement>
+
     </VerticalTimeline>
   </div>
 );
