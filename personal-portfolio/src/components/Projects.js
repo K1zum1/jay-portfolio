@@ -11,18 +11,18 @@ import 'animate.css';
 export const Projects = () => {
   const projects = [
     {
-      title: "Wind Density Modeler",
-      description: "Stellar Wind Density Modeler for protoplanetary disks. Used for observing early star formation.",
+      title: "AstroWind",
+      description: "Stellar Wind Density Modeler for protoplanetary disks. Used for visualizing early star formation.",
       Tags: "Python, NumPy, SciPy, Matplotlib",
       imgUrl: projImg3,
-      githubUrl: "https://github.com/K1zum1/Disc-Wind-Density-Program"
+      githubUrl: "https://github.com/K1zum1/AstroWind"
     },
     {
-      title: "SSH Aggregator",
-      description: "Aggregates SSH keys from compromised servers and generates a revocation list for security purposes. ",
+      title: "Compromise Vault",
+      description: "A collection website for known copromised SSH keys and to generate a revocation list for security purposes. ",
       Tags: "React, Javascript, Python, PostgreSQL",
       imgUrl: projImg1,
-      githubUrl: "https://github.com/K1zum1/SSH-Key-Aggregator"
+      githubUrl: "https://github.com/K1zum1/Compromise-Vault"
     },
     {
       title: "Notion Reminder Bot",
@@ -47,7 +47,7 @@ export const Projects = () => {
     },
     {
       title: "School Projects",
-      description: "Various school projects from my time at the Diablo Valley College.",
+      description: "Various school projects spanning several different computer science courses..",
       Tags: "Python, C++, Assembly",
       imgUrl: projImg6,
       githubUrl: "https://github.com/K1zum1/school-projects"
