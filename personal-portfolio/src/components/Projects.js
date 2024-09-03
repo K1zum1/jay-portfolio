@@ -46,11 +46,11 @@ export const Projects = () => {
       githubUrl: "https://github.com/TeachMeTW/WorldView-Wanderer"
     },
     {
-      title: "School Projects",
-      description: "Various school projects spanning several different computer science courses..",
-      Tags: "Python, C++, Assembly",
+      title: "Virus Totality",
+      description: "An application that will scrape up any copied IP address/URL/domain/file hash from your system and automatically run it through Virus Total",
+      Tags: "Python, PySimpleGUI, VirusTotal API, Tkinter",
       imgUrl: projImg6,
-      githubUrl: "https://github.com/K1zum1/school-projects"
+      githubUrl: "https://github.com/K1zum1/Virus-Totality"
     },
   ];
 
