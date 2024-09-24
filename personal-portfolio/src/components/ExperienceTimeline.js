@@ -87,13 +87,13 @@ export const ExperienceTimeline = () => {
     },
     {
       date: "August 2024 - December 2024",
-      title: "Cybersecurity Engineering Intern",
+      title: "Cybersecurity Analyst Intern",
       icon: ncsa,
       alt: "NCSA Logo",
       thumbnail: ncsabanner,
       link: "path_to_your_pdf_or_external_link",
       points: [
-        "Incoming Intern"
+        "Working on Vulnerability Management using Qualys/Splunk and engineering security hardening for HIPAA and CUI systems, networks, data and services. Working with TCP/IP networking protocols to understand Zeek"
       ]
     },
   ];

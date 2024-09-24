@@ -11,7 +11,8 @@ export const Banner = () => {
   const [delta, setDelta] = useState(100);
   const toRotate = [
     "EECS Junior at UC Berkeley",
-    "Front-end Enthusiast",
+    "Super bad at Leetcode",
+    "Decent at picoCTF though",
     "Cybersecurity Aspirant",
     "Did astronomy research, insane sidequest",
     "Master's Rank in League - Kizumi#LOOΠΔ",
@@ -19,7 +20,8 @@ export const Banner = () => {
     "Lee Ji-Eun Lover",
     "Working at NCSA right now",
     "Sugarcoat - NATTY",
-    "Ichiko Aoba is based"
+    "Ichiko Aoba is based",
+    "Division 2 Cal Esports for LOL", 
   ];
   const period = 1000;
 

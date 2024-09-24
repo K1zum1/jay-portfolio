@@ -12,7 +12,7 @@ export const EduTimeline = () => {
         <h2>My Education Journey</h2>
       </section>
       <VerticalTimeline>
-        {/* <VerticalTimelineElement
+         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{ background: '#6495ED', color: '#fff' }}
           contentArrowStyle={{ borderRight: '20px solid #6495ED' }}
@@ -27,12 +27,12 @@ export const EduTimeline = () => {
             Lead the Google Developer Student club as their GDSC Lead <br /><br />
             Completed all major-prerequisite classes, while maintaining a 4.0 GPA <br />
           </p>
-        </VerticalTimelineElement> */}
+        </VerticalTimelineElement> 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           contentStyle={{ background: '#6A5ACD', color: '#fff' }}
           contentArrowStyle={{ borderRight: '20px solid #6A5ACD' }}
-          date="August 2022 - May 2026"
+          date="August 2024 - May 2026"
           iconStyle={{ background: '#FFFFFF', color: '#fff' }}
           icon={<img src={UCB} alt="UCB Logo" />}
         >
