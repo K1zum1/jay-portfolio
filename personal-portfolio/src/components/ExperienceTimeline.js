@@ -67,9 +67,8 @@ export const ExperienceTimeline = () => {
       thumbnail: setibanner,
       link: "https://drive.google.com/file/d/1APInVrRmS74qXw3R7hxxOnI1XuLNepGg/view?usp=sharing",
       points: [
-        "Contributed to the modification of RADMC-3D, creating high-fidelity models to simulate wind structures in protoplanetary disks.",
-        "Developed a robust and efficient modeling framework that can be used by the scientific community to analyze JWST data and study protoplanetary disk winds.",
-        "Utilized Numpy, Matplotlib, and Python3 to process and aggregate up to 1,000,000 data points to feed into RADMC3D computation model to produce 50+ images."
+        "Developed an efficient modeling framework for planetary formation for research purposes. Utilized Numpy, Matplotlib, and Python3, to process and generate up to 10,000,000 data points to feed into RADMC3D computation model to produce 50+ images to help SETI scientists study planetary formation",
+        "Contributed to the modification and restructuring of RADMC-3D open source software, creating high-fidelity models to simulate wind structures in protoplanetary disks allowing for dense and quality images to be produced"
       ]
     },
     {
@@ -80,9 +79,8 @@ export const ExperienceTimeline = () => {
       thumbnail: ncsabanner,
       link: "https://docs.google.com/presentation/d/1N-T8K4B7m-UL9fgLMm3C3ZHH7zhUiaqmIHKVz4kWWCQ/edit?usp=sharing",
       points: [
-        "Checked the existence of 100+ Service Principals in DNS, service indexes, and Qualys report. Compiled a spreadsheet containing 300+ data points.",
-        "Developed a web application using React for the frontend and Node.js with Vercel serverless functions for the backend, enabling secure submission and aggregation of 500+ SSH keys.",
-        "Implemented robust client-side validation for SSH key formats and fingerprint extraction using regular expressions and the node-forge library, allowing for 30% faster processing."
+        "Designed and developed a comprehensive open-source tool for aggregating and distributing compromised SSH keys via dynamic key revocation lists using ExpressJs, NextJs, PostgreSQL, and Libssh, deployed on Amazon EC2", 
+        "Implemented a high-performance fingerprint validation algorithm leveraging ssh-keygen and advanced regular expressions to extract and validate any SSH key type. This solution supports seamless scalability for large-scale compromised key datasets."
       ]
     },
     {
@@ -93,7 +91,8 @@ export const ExperienceTimeline = () => {
       thumbnail: ncsabanner,
       link: "path_to_your_pdf_or_external_link",
       points: [
-        "Working on Vulnerability Management using Qualys/Splunk and engineering security hardening for HIPAA and CUI systems, networks, data and services. Working with TCP/IP networking protocols to understand Zeek"
+        "Auditing the existence of over 100+ Service Principals in DNS, service indexes, and Qualys reports. Consolidated findings into a structured dataset of 400+ data points to facilitate the decommissioning of vulnerable, end-of-life servers.",
+        "Conducting vulnerability management using Qualys and Splunk, integrating advanced threat detection and mitigation strategies. Engineering security hardening practices for HIPAA- and CUI-compliant systems, networks, data, and services."
       ]
     },
   ];
