@@ -119,7 +119,7 @@ export const ExperienceTimeline = () => {
       icon: ncsa,
       alt: 'NCSA Logo',
       thumbnail: ncsabanner,
-      link: 'hi',
+      link: 'https://youtu.be/QSGTLCTYVOU',
       points: [
         'Leading comprehensive vulnerability management initiatives using Qualys and Splunk, implementing advanced threat detection and mitigation strategies to safeguard HIPAA- and CUI-compliant systems, networks, and data.',
         'Conducting meticulous audits of over 100 Service Principals within DNS, service indexes, and Qualys reports, consolidating findings into a structured dataset with over 400 data points to streamline the decommissioning of end-of-life, vulnerable servers.',

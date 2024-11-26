@@ -14,14 +14,14 @@ export const Banner = () => {
     "Super bad at Leetcode",
     "Decent at picoCTF though",
     "Cybersecurity Aspirant",
-    "Did astronomy research, insane sidequest",
+    "Did astronomy research, sidequest",
     "Master's Rank in League - Kizumi#LOOΠΔ",
-    "Former Top 100 Splatoon 2 player",
+    "Former Top 100 NA Splatoon 2 player",
     "Lee Ji-Eun Lover",
     "Working at NCSA right now",
     "Sugarcoat - NATTY",
     "Ichiko Aoba is based",
-    "Division 2 Cal Esports for LOL", 
+    "Minju ILLIT is the best member fight me", 
   ];
   const period = 1000;
 

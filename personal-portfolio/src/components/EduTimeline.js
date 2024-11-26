@@ -12,8 +12,8 @@ const EducationCard = ({ education, color }) => {
       contentStyle={{ 
         background: '#1a1a1a',
         boxShadow: '0 4px 6px 0 rgba(0, 0, 0, 0.07)',
-        border: '5px solid',  // Set the thickness
-        borderImage: `linear-gradient(135deg, ${color}, #FFFFFF) 1`,  // Gradient around the entire block
+        border: '5px solid',
+        borderImage: `linear-gradient(135deg, ${color}, #FFFFFF) 1`,
         padding: '20px',
         color: '#fff',
       }}
